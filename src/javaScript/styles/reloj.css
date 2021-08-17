@@ -1,0 +1,17 @@
+p { 
+    display: inline;
+}
+
+.dato{
+    font-size: larger;
+    color:#f5b0b0;
+}
+
+.clock{
+    background-color: #000000;
+    padding: 20px;
+    display: inline;
+}
+.de{
+    color:#fff;
+}

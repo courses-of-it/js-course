@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+        <script src="../js/01-selectores.js"></script>
+        <title>Jquery</title>
+
+        <style>
+            .zebra{
+                border:5px dashed black;
+            }
+            .grande{
+                font-size: 35px;
+            }
+            .margen-superior{
+                display: block;
+                margin-top: 45px;
+            }
+            .resaltado{
+                border-bottom: 1px solid green;
+            }
+        </style>
+
+</head>
+<body>
+    <h1>Aprendiendo Jquery</h1>
+    <p id="rojo" class="zebra">rojo</p>
+    <p id="amarillo" class="sin">amarillo</p>
+    <p id="verde" class="sin">verde</p>
+
+    <p class="zebra">me han selecionado por una classe</p>
+
+    <br>
+    <hr>
+    <ul>
+        <li><a href="https://www.google.com" title="google">Google</a></li>
+        <li><a href="https://www.facebook.com" title="facebook">facebook</a></li>
+        <li><a href="https://www.instagram.com" title="instagram">instagram</a></li>
+    </ul>
+
+    <div id="caja">
+        <p>hola soy una caja</p>
+        <ul>
+            <li>1</li>
+            <li class="resaltado">2</li>
+        </ul>
+        <span class="resaltado">hola</span>
+    </div>
+        
+</body>
+</html>

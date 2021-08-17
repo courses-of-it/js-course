@@ -1,0 +1,34 @@
+:root{
+    --rojo: #CA3413;
+    --rojo-hover: #df5132;
+}
+
+body{
+    background:url("../img/rojo.jpg");
+    background-attachment: fixed;
+}
+
+#logo{
+    background: var(--rojo);
+}
+
+.read-more{
+    background-color: var(--rojo);
+}
+
+.read-more:hover{
+    background: var(--rojo-hover);
+}
+
+#menu ul li:hover{
+	background: var(--rojo);
+}
+
+.user{
+    border: 2px solid var(--rojo)
+}
+
+.ui-accordion-header-active{
+    background-color: var(--rojo) !important;
+    border: none !important;
+}

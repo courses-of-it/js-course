@@ -1,0 +1,34 @@
+:root{
+    --verde: #235e3d;
+    --verde-hover:#328355;
+}
+
+body{
+    background:url("../img/hojas.jpg");
+    background-attachment: fixed;
+}
+
+#logo{
+    background: var(--verde);
+}
+
+.read-more{
+    background-color: var(--verde);
+}
+
+.read-more:hover{
+    background: var(--verde-hover);
+}
+
+#menu ul li:hover{
+	background: var(--verde);
+}
+
+.user{
+    border: 2px solid var(--verde)
+}
+
+.ui-accordion-header-active{
+    background-color: var(--verde) !important;
+    border: none !important;
+}

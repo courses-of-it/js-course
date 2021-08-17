@@ -1,0 +1,34 @@
+:root{
+    --blue: #1f87c4;
+    --blue-hover: #2f9cdb;
+}
+
+body{
+    background:url("../img/cielo.jpg");
+    background-attachment: fixed;
+}
+
+#logo{
+    background: var(--blue);
+}
+
+.read-more{
+    background-color: var(--blue);
+}
+
+.read-more:hover{
+    background: var(--blue-hover);
+}
+
+#menu ul li:hover{
+	background: var(--blue);
+}
+
+.user{
+    border: 2px solid var(--blue)
+}
+
+.ui-accordion-header-active{
+    background-color: var(--blue) !important;
+    border: none !important;
+}

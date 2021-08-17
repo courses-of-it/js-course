@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/ejercicios/2/validacion de formulario.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            width: 500px;
+            float: left;
+            margin: 20px;
+        }
+        .dashed{
+            border: 3px dashed black;
+            height: 250px;
+            padding: 5px;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+
+    <div class="box">
+        <form accept="#" method="POST" id="form" onsubmit="return false;">
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" name="nombre" id="nombre">
+            <span id="erroName" style="color: red;">Introduce un nombre valido</span>
+            <br>
+            <label for="apellidos">Apellidos</label>
+            <br>
+            <input type="text" name="apellidos" id="apellidos">
+            <span id="errorApellido" style="color: red;">Has introducido unos apellidos incorrectos</span>
+            <br>
+            <label for="edad">Edad</label>
+            <br>
+            <input type="number" name="edad" id="edad">
+            <span id="errorDate" style="color: red;">Has introducido una edad no valida</span>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <span id="errorEmail" style="color: red;">Introduce un email correcto</span>
+            <br>
+            <br>
+            <input type="submit" id="submit" value="enviar">
+        </form>
+    </div>
+
+    <div class="box dashed">
+        <h3>Info del usuario</h3>
+        <hr>
+        <p id="p_nombre">
+            Nombre: <span></span>
+        </p>
+        <p id="p_apellido">
+            Apellidos: <span></span>
+        </p>
+        <p id="p_edad">
+            Edad: <span></span>
+        </p>
+        <p id="p_email">
+            Email: <span></span>
+        </p>
+    </div>
+
+
+    
+</body>
+</html>
